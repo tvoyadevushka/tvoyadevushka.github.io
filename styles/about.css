@@ -1,7 +1,7 @@
 .about {
     background-color: var(--bg-main-grey);
     /* padding: 25px 0 50px 0; */
-    padding: 50px 30px 100px;
+    padding: 50px 30px 35px;
     text-align: center;
     color: var(--color-main-black);
 }
