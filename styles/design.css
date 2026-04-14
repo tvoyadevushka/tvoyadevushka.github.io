@@ -41,6 +41,10 @@
     margin: 35px 0 0 0;
 }
 
+.design-icon:hover {
+    fill:lightcoral
+}
+
 .design iframe {
     margin: 20px 20px 20px 20px;
     

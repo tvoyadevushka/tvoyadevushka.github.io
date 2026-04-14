@@ -10,6 +10,7 @@
     <link rel="icon" href="assets/favicon.png" type="image/png">
     <link rel="stylesheet" href="index.css">
     <title>tvoyadevushka</title>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -30,10 +31,43 @@
                         <a href="#design-id" class="nav-link" aria-label="link to portfolio">Создание логотипов «Line & Lore»</a>
                     </li>
                 </ul>
-
             </nav>
         </div>
     </header>
+
+    <div class="mobile-navigation" aria-label="mobile-navigation">
+        <label for="toggler-id" aria-label="open-close mobile-navigation menu">
+            <svg class="mobile-navigation-burger" aria-label="burger icon">
+                <use href="assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" id="toggler-id" class="mobile-navigation-toggler">
+        
+        <nav class="mobile-navigation-menu" aria-label="mobile header navigation">
+            <ul class="mobile-navigation-list" aria-label="mobile header navigation list">
+                <li>
+                    <a href="#home-id" class="mobile-navigation-link" aria-label="link to home">Home</a>
+                </li>
+                <li>
+                    <a href="#about-id" class="mobile-navigation-link" aria-label="link to about">About</a>
+                </li>
+                <li>
+                    <a href="#socials-id" class="mobile-navigation-link" aria-label="link to socials">Socials</a>
+                </li>
+                <li>
+                    <a href="#design-id" class="mobile-navigation-link" aria-label="link to portfolio">Создание логотипов «Line & Lore»</a>
+                </li>
+            </ul>
+
+            <label for="toggler-id" class="mobile-navigation-close" aria-label="open-close mobile-navigation menu">
+                <svg class="mobile-navigation-cross" aria-label="cross icon">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+
+        </nav>
+    </div>
 
     <main aria-label="main">
         <section class="home" aria-label="home section" id="home-id">
@@ -90,24 +124,25 @@
                         <svg class="social-icon" aria-label="discord icon">
                             <use href="assets/sprites.svg#discord-icon"></use>
                         </svg>
-                    </a>
-                
+                    </a>                
                 </address>
-
             </div>
         </section>
 
         <section class="design" aria-label="design section" id="design-id">
             <div class="container">
+
                 <h2 class="design-title" aria-label="design title">Создание логотипов «Line & Lore»</h2>
                 <h3 class="design-subtitle" aria-label="design subtitle">В каждой линии — стиль. В каждой идее — история.<br> «Line & Lore»  создаёт логотипы, которые выглядят просто, но значат многое.<br> Мы сочетаем эстетику и концепт, чтобы ваш бренд говорил без слов.</h3>
+
                 <iframe src="https://www.behance.net/embed/project/246471595?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin" scrolling="no"></iframe>
                 <iframe src="https://www.behance.net/embed/project/243888523?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin" scrolling="no"></iframe>
                 <iframe src="https://www.behance.net/embed/project/243436947?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin" scrolling="no"></iframe>
                 <iframe src="https://www.behance.net/embed/project/242703147?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin" scrolling="no"></iframe>
                 <p class="design-description" aria-label="design description">...и много наших других работ можно найти тут:</p>
                 
-                <address class="design-links" aria-label="design icons">                
+                <address class="design-links" aria-label="design icons">
+
                     <a href="https://www.behance.net/0627eaff/projects" target="_blank" aria-label="link to behance">
                         <svg class="design-icon" aria-label="behance icon">
                             <use href="assets/sprites.svg#behance-icon"></use>
@@ -119,11 +154,19 @@
                             <use href="assets/sprites.svg#vkdesign-icon"></use>
                         </svg>
                     </a>
-            </div>           
+            </div>         
         </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer" aria-label="footer section">
+        <div class="container">
+            <p class="email" aria-label="email">
+                Почта для сотрудничества: tvoyadevushkalife@mail.ru
+            </p>
+            <p class="rights" aria-label="rights">
+                &copy; 2026 tvoyadevushka
+            </p>
+        </div>
+    </footer>
 </body>
-
 </html>
