@@ -31,23 +31,29 @@
 
 @media (max-width: 1440px) {
     .links {
-        gap: 60px;
+        gap: 50px;
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     .links {
         gap: 30px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
+    .links {
+        gap: 25px;
+    }
+}
+
+@media (max-width: 520px) {
     .links {
         gap: 20px;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .links {
         gap: 5px;
     }
