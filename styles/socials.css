@@ -26,9 +26,9 @@
   margin: 0 0 0 0;
 }
 
-.social-icon:hover {
+/* .social-icon:hover {
   fill:lightcoral
-}
+} */
 
 @media (max-width: 1440px) {
   .links {
